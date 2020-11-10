@@ -1,0 +1,22 @@
+{
+  "name": "380finalproject",
+  "version": "1.0.0",
+  "description": "Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DungeonMaestro215/380FinalProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DungeonMaestro215/380FinalProject/issues"
+  },
+  "homepage": "https://github.com/DungeonMaestro215/380FinalProject#readme",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  }
+}
