@@ -4,5 +4,6 @@
     background-repeat: no-repeat;
 }
 
-#header {
+.projectSectionPadding {
+    padding-bottom: 20px;
 }
