@@ -21,11 +21,11 @@
 
     <div id="navbar" class="navbar-menu is-active">
       <div class="navbar-start">
-        <a class="navbar-item" href="./index.html">Home</a>
-        <a class="navbar-item" href="./history.html">History</a>
-        <a class="navbar-item" href="./tech.html">Tech-Specs</a>
-        <a class="navbar-item">Projects</a>
-        <a class="navbar-item" href="./authors.html">About the Authors</a>
+        <a class="navbar-item grow" href="./index.html">Home</a>
+        <a class="navbar-item grow" href="./history.html">History</a>
+        <a class="navbar-item grow" href="./tech.html">Tech-Specs</a>
+        <a class="navbar-item grow">Projects</a>
+        <a class="navbar-item grow" href="./authors.html">About the Authors</a>
       </div>
     </div>
   </nav>
@@ -33,8 +33,8 @@
   <section class="section">
     <div class="container">
       <div class="content">
-        <h1 class="title">Projects</h1>
-        <h5 class="subtitle has-text-grey">Some Projects using the Raspberry Pi</h5>
+        <h1 class="title grow">Projects</h1>
+        <h5 class="subtitle has-text-grey grow">Some Projects using the Raspberry Pi</h5>
         <p>
           With their low cost and high versatility, these devices can be used for a wide
           variety of projects. We will present some of our own projects along with a non-exhaustive
@@ -46,12 +46,12 @@
     <!--if it aint broke, dont fix it lol -me, using <br> -->
 
     <div class="container">
-      <h2 class="title">Scholary Pi Stuff</h2>
+      <h2 class="title grow">Scholary Pi Stuff</h2>
 
       <div class="content">
         <div class="columns">
           <div class="column is-9">
-            <h5 class="subtitle has-text-grey">Water Quality Monitoring</h5>
+            <h5 class="subtitle has-text-grey grow">Water Quality Monitoring</h5>
             <p>
               This <a target="_blank"
                 href="https://dwes.copernicus.org/articles/12/31/2019/dwes-12-31-2019.html">scholarly article </a>
@@ -65,7 +65,7 @@
             </p>
           </div>
           <div class="column has-text-centered">
-            <img src="./images/waterQualityPi.png" style="width: 80%; height: 80% ;">
+            <img src="./images/waterQualityPi.png" style="width: 80%; height: 80% ;" class="grow">
             <p class="is-italic">Raspberry Pi hooked up to peripherals for reading water quality.</p>
           </div>
         </div>
@@ -74,11 +74,11 @@
       <div class="content">
         <div class="columns">
           <div class="column has-text-centered">
-            <img src="./images/lightarray.png" style="width: 60%; height: 80% ;">
+            <img src="./images/lightarray.png" style="width: 60%; height: 80% ;" class="grow">
             <p class="is-italic">100 Raspberry Pi's each controlling one camera in a 10x10 camera array. </p>
           </div>
           <div class="column is-9">
-            <h5 class="subtitle has-text-grey">4D Light Field Camera Array</h3>
+            <h5 class="subtitle has-text-grey grow">4D Light Field Camera Array</h3>
               <p>
                 Here is another example of how the Raspberry Pi is helping researchers.
                 In Sogang University, South Korea,
@@ -101,7 +101,7 @@
       <div class="content">
         <div class="columns">
           <div class="column is-9">
-            <h5 class="subtitle has-text-grey">Self-Driving Cars</h3>
+            <h5 class="subtitle has-text-grey grow">Self-Driving Cars</h3>
               <p>
                 A place where you may not expect a Raspberry Pi is in self-driving car technology.
                 <a target="_blank" href="http://journal.uad.ac.id/index.php/TELKOMNIKA/article/view/4509">
@@ -117,7 +117,7 @@
               </p>
           </div>
           <div class="column has-text-centered">
-            <img src="./images/selfdrivingcartest.png" style="width: 90%; height: 80% ;">
+            <img src="./images/selfdrivingcartest.png" style="width: 90%; height: 80% ;" class="grow">
             <p class="is-italic">Test car for self driving car research with a Raspberry Pi inside of it.</p>
           </div>
         </div>
@@ -126,10 +126,12 @@
     <br>
     <!--if it aint broke, dont fix it lol -me, using <br> -->
     <div class="container">
-      <h2 class="title">Personal Projects</h2>
+      <h2 class="title grow">Personal Projects</h2>
 
       <div class="content">
-        <h5 class="subtitle has-text-grey">Will's Twitter Bot, <a target="_blank"
+        <div class="columns">
+          <div class="column is-8">
+        <h5 class="subtitle has-text-grey grow">Will's Twitter Bot, <a target="_blank"
             href="https://www.twitter.com/forgbot">@forgbot</a> </h5>
 
         <p>
@@ -140,16 +142,23 @@
           tweets from some python code
           and then used <a target="_blank" href="https://en.wikipedia.org/wiki/Cron">Cron</a> to automate when the
           python script would be executed.
-          To my surprise, this little bot gained some popularity and has 136 followers! I learned a lot through this
+          To my surprise, this little bot gained some popularity and has 137 followers! I learned a lot through this
           project
           like managing files using the BASH terminal and how to use an API. Learning is what the Raspberry Pi is all
           about and
           serves as a great platform to get into computer science topics like software development.
         </p>
       </div>
+      <div class="column">
+        <a class="twitter-timeline" data-width="400" data-height="300" href="https://twitter.com/forgbot?ref_src=twsrc%5Etfw">
+          Tweets by forgbot</a>
+         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      </div>
+    </div>
 
       <div class="content">
-        <h5 class="subtitle has-text-grey">Denver's LEDs</h5>
+        <h5 class="subtitle has-text-grey grow">Denver's LEDs</h5>
         <p>I am currently using my Raspberry Pi Zero W to control 32 feet of LEDs in my living room. The Pi
           communicates with the LEDs through its GPIO pins. By running different Python programs, I am able to control
           what patterns appear on the lights. Each of the LEDs can be individually controlled, allowing me to created
@@ -165,7 +174,7 @@
         </p>
         <div class="columns is-multiline justify-center">
           <div class="column has-text-centered">
-            <img src="images/pi_and_leds.jpg" width="250" height="315">
+            <img src="images/pi_and_leds.jpg" width="250" height="315" class="grow">
           </div>
           <div class="column has-text-centered">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/0I_fn9c81B0" frameborder="0"
@@ -176,7 +185,7 @@
       </div>
 
       <div class="content">
-        <h5 class="subtitle has-text-grey">Denver's Website</h5>
+        <h5 class="subtitle has-text-grey grow">Denver's Website</h5>
         <p>Additionally, I am hosting a website on my Raspberry Pi 4. This was mostly an educational tool for me to
           learn more about web development and internet security over this past summer. I plan on revamping this site
           using
@@ -192,8 +201,8 @@
 
     <div class="container">
       <div class="content">
-        <h2 class="title">Additional Uses for the Raspberry Pi</h2>
-        <h5 class="subtitle has-text-grey">Incase you get bored...</h5>
+        <h2 class="title grow">Additional Uses for the Raspberry Pi</h2>
+        <h5 class="subtitle has-text-grey grow">Incase you get bored...</h5>
 
         <ul>
           <li>Basic <a href="https://www.raspberrypi.org/products/raspberry-pi-400/?resellerType=home">Desktop</a> Computers</li>
