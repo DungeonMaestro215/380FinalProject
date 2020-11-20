@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="./bulma.css">
   <link rel="stylesheet" href="./style.css">
+  <link data-react-helmet="true" rel="icon" href="/images/favicon.webp">
 
   <title>Projects</title>
 </head>
@@ -14,8 +15,9 @@
 <body>
   <nav class="navbar is-active" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" target="_blank" href="https://www.raspberrypi.org/">
-        <img src="./images/raspberrypilogo.png" width="25" height="30">
+      <a class="navbar-item" title="Go to the Official Raspberry Pi Website" target="_blank"
+        href="https://www.raspberrypi.org/">
+        <img alt="Raspberry Pi Logo" src="./images/raspberrypilogo.png" width="25" height="30">
       </a>
     </div>
 
@@ -65,7 +67,8 @@
             </p>
           </div>
           <div class="column has-text-centered">
-            <img src="./images/waterQualityPi.png" style="width: 80%; height: 80% ;" class="grow">
+            <img alt="Raspberry Pi being used to sample water quality." src="./images/waterQualityPi.png"
+              style="width: 80%; height: 80% ;" class="grow">
             <p class="is-italic">Raspberry Pi hooked up to peripherals for reading water quality.</p>
           </div>
         </div>
@@ -74,7 +77,8 @@
       <div class="content">
         <div class="columns">
           <div class="column has-text-centered">
-            <img src="./images/lightarray.png" style="width: 60%; height: 80% ;" class="grow">
+            <img alt="10 by 10 array of Raspberry Pi's with camera attachments." src="./images/lightarray.png"
+              style="width: 60%; height: 80% ;" class="grow">
             <p class="is-italic">100 Raspberry Pi's each controlling one camera in a 10x10 camera array. </p>
           </div>
           <div class="column is-9">
@@ -117,7 +121,8 @@
               </p>
           </div>
           <div class="column has-text-centered">
-            <img src="./images/selfdrivingcartest.png" style="width: 90%; height: 80% ;" class="grow">
+            <img alt="Raspberry Pi used in a self-driving car." src="./images/selfdrivingcartest.png"
+              style="width: 90%; height: 80% ;" class="grow">
             <p class="is-italic">Test car for self driving car research with a Raspberry Pi inside of it.</p>
           </div>
         </div>
@@ -131,31 +136,34 @@
       <div class="content">
         <div class="columns">
           <div class="column is-8">
-        <h5 class="subtitle has-text-grey grow">Will's Twitter Bot, <a target="_blank"
-            href="https://www.twitter.com/forgbot">@forgbot</a> </h5>
+            <h5 class="subtitle has-text-grey grow">Will's Twitter Bot, <a target="_blank"
+                href="https://www.twitter.com/forgbot">@forgbot</a> </h5>
 
-        <p>
-          The Raspberry Pi is great for the core of almost any electronics project. However, it also is an great
-          platform for software projects. Using my Raspberry Pi Zero W, I made a bot that posts daily frog pictures
-          to <a target="_blank" href="https://www.twitter.com/forgbot">Twitter.</a> To accomplish this, I used a
-          popular <a target="_blank" href="https://twython.readthedocs.io/en/latest/">Python Twitter API</a> to post the
-          tweets from some python code
-          and then used <a target="_blank" href="https://en.wikipedia.org/wiki/Cron">Cron</a> to automate when the
-          python script would be executed.
-          To my surprise, this little bot gained some popularity and has 137 followers! I learned a lot through this
-          project
-          like managing files using the BASH terminal and how to use an API. Learning is what the Raspberry Pi is all
-          about and
-          serves as a great platform to get into computer science topics like software development.
-        </p>
+            <p>
+              The Raspberry Pi is great for the core of almost any electronics project. However, it also is an great
+              platform for software projects. Using my Raspberry Pi Zero W, I made a bot that posts daily frog pictures
+              to <a target="_blank" href="https://www.twitter.com/forgbot">Twitter.</a> To accomplish this, I used a
+              popular <a target="_blank" href="https://twython.readthedocs.io/en/latest/">Python Twitter API</a> to post
+              the
+              tweets from some python code
+              and then used <a target="_blank" href="https://en.wikipedia.org/wiki/Cron">Cron</a> to automate when the
+              python script would be executed.
+              To my surprise, this little bot gained some popularity and has 137 followers! I learned a lot through this
+              project
+              like managing files using the BASH terminal and how to use an API. Learning is what the Raspberry Pi is
+              all
+              about and
+              serves as a great platform to get into computer science topics like software development.
+            </p>
+          </div>
+          <div class="column">
+            <a class="twitter-timeline" data-width="400" data-height="300"
+              href="https://twitter.com/forgbot?ref_src=twsrc%5Etfw">
+              Tweets by forgbot</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
       </div>
-      <div class="column">
-        <a class="twitter-timeline" data-width="400" data-height="300" href="https://twitter.com/forgbot?ref_src=twsrc%5Etfw">
-          Tweets by forgbot</a>
-         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
-      </div>
-    </div>
 
       <div class="content">
         <h5 class="subtitle has-text-grey grow">Denver's LEDs</h5>
@@ -174,7 +182,8 @@
         </p>
         <div class="columns is-multiline justify-center">
           <div class="column has-text-centered">
-            <img src="images/pi_and_leds.jpg" width="250" height="315" class="grow">
+            <img alt="Denver's Pi Zero W mounted on a wall controlling an LED strip." src="images/pi_and_leds.jpg"
+              width="250" height="315" class="grow">
           </div>
           <div class="column has-text-centered">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/0I_fn9c81B0" frameborder="0"
@@ -191,7 +200,8 @@
           using
           the techniques
           I learned this semester in my web deveopment course. I plan on using this to document my past and future
-          projects involving technology. This website also hosted a Text-to-Speech  I will not provide a link to this site here, as it is
+          projects involving technology. This website also hosted a Text-to-Speech I will not provide a link to this
+          site here, as it is
           mostly
           just a platform for me to practice development, but it is out there on the Internet.
         </p>
@@ -205,16 +215,27 @@
         <h5 class="subtitle has-text-grey grow">Incase you get bored...</h5>
 
         <ul>
-          <li>Basic <a href="https://www.raspberrypi.org/products/raspberry-pi-400/?resellerType=home">Desktop</a> Computers</li>
-          <li>Retro Gaming Emulators (<a href="https://www.youtube.com/channel/UC_0CVCfC_3iuHqmyClu59Uw">ETA Prime</a>)</li>
-          <li>Home <a href="https://www.raspberrypi.org/blog/build-the-ultimate-4k-home-theatre-pc-using-a-raspberry-pi-4-and-kodi/">Media Systems</a></li>
-          <li><a href="https://www.reddit.com/r/raspberry_pi/comments/jmnosn/drive_my_internet_controlled_robot/">Internet Controlled Robots!</a></li>
+          <li>Basic <a href="https://www.raspberrypi.org/products/raspberry-pi-400/?resellerType=home">Desktop</a>
+            Computers</li>
+          <li>Retro Gaming Emulators (<a href="https://www.youtube.com/channel/UC_0CVCfC_3iuHqmyClu59Uw">ETA Prime</a>)
+          </li>
+          <li>Home <a
+              href="https://www.raspberrypi.org/blog/build-the-ultimate-4k-home-theatre-pc-using-a-raspberry-pi-4-and-kodi/">Media
+              Systems</a></li>
+          <li><a
+              href="https://www.reddit.com/r/raspberry_pi/comments/jmnosn/drive_my_internet_controlled_robot/">Internet
+              Controlled Robots!</a></li>
           <!-- <ul><li>This Reddit article links a website where you can control various robots over the Internet!</li></ul> -->
-          <li>Cool <a href="https://www.tomshardware.com/news/freeze-time-using-15-raspberry-pis-to-create-a-bullet-time-effect">Bullet Time</a> Effect</li>
-          <li><a href="https://towardsdatascience.com/real-time-object-tracking-with-tensorflow-raspberry-pi-and-pan-tilt-hat-2aeaef47e134">Tensorflow</a> projects</li>
+          <li>Cool <a
+              href="https://www.tomshardware.com/news/freeze-time-using-15-raspberry-pis-to-create-a-bullet-time-effect">Bullet
+              Time</a> Effect</li>
+          <li><a
+              href="https://towardsdatascience.com/real-time-object-tracking-with-tensorflow-raspberry-pi-and-pan-tilt-hat-2aeaef47e134">Tensorflow</a>
+            projects</li>
         </ul>
       </div>
     </div>
   </section>
 </body>
+
 </html>
